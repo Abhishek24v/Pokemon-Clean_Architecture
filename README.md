@@ -122,3 +122,4 @@ Core : (Common for all modules)
     - Datasources remote
     - Provider uses
 
+Credit/reference by https://github.com/fluttermapp/flutter_mapp_clean_architecture/
