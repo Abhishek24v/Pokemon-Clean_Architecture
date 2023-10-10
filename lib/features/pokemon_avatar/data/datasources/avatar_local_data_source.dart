@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_mapp_clean_architecture/features/pokemon_avatar/data/models/avatar_image_model.dart';
+import 'package:pokemon_clean_architecture/features/pokemon_avatar/data/models/avatar_image_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../../core/errors/exceptions.dart';
 

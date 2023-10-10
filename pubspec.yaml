@@ -1,4 +1,4 @@
-name: flutter_mapp_clean_architecture
+name: pokemon_clean_architecture
 description: A new Flutter project.
 publish_to: 'none'
 version: 1.0.0+1
@@ -16,6 +16,7 @@ dependencies:
   provider: ^6.0.5
   path_provider: ^2.1.0
   cupertino_icons: ^1.0.2
+  permission_handler: ^11.0.1
 
 dev_dependencies:
   flutter_test:

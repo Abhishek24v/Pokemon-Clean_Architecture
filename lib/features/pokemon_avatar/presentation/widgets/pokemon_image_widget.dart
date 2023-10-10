@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_mapp_clean_architecture/core/errors/failure.dart';
-import 'package:flutter_mapp_clean_architecture/features/pokemon_avatar/business/entities/avatar_entity.dart';
-import 'package:flutter_mapp_clean_architecture/features/pokemon_avatar/presentation/providers/avatar_image_provider.dart';
+import 'package:pokemon_clean_architecture/core/errors/failure.dart';
+import 'package:pokemon_clean_architecture/features/pokemon_avatar/business/entities/avatar_entity.dart';
+import 'package:pokemon_clean_architecture/features/pokemon_avatar/presentation/providers/avatar_image_provider.dart';
 import 'package:provider/provider.dart';
 
 class PokemonImageWidget extends StatelessWidget {
