@@ -21,7 +21,7 @@
 * When to create complex and robust projects
 * When having multi-concerns in one project
 
-## *-----------Now When You finally Dicided to go with Clean Architecture----------*
+## *-----Now When You finally Dicided to go with Clean Architecture-----*
 ## Lets Gets Started
 
 ## Skeleton
@@ -58,12 +58,12 @@ Data:
                           Widgets -> (Click the button)
                             👇 
                     <-     Entity    ->
-            Yes                          No
-             👇                          👇   
-       Show Widget              <- Check for Failure ->
-                            Yes                         No
-                            👇                          👇 
-                        error Message               show Loading
+               Yes                       No
+                👇                        👇   
+           Show Widget              <- Check for Failure ->
+                                Yes                         No
+                                👇                          👇 
+                           error Message               show Loading
 
 
 
