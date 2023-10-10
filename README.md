@@ -83,6 +83,42 @@ Data:
                         Data Layer
 
 
+## Data Layer (Data source)
 
-Navigate to -> Lib/core/template/info_feature.txt
+* Responsible for managing the storage and retrieval of data.
+* In our application,we are getting the data from api and saving to local storage. 
+
+                      Domain
+                       👇👆 
+              Data (RepositoryImpl)
+                       👇👆 
+                  <- Internet ->
+              Yes                No
+               👇                👇 
+        Remote Repo. <------> Locale Repo.
+            👇👆                  👇👆  
+            APi                 DB/Cache
+
+## Besides Skeleton - Need some more Imp stuff
+
+Core : (Common for all modules)
+* Connection (Network Info)
+* Constants (Commanly use strings)
+* Error (Exception/Error handling)
+* Param (Holds data classes)
+
+## ----- Now you are all set to build new feature----
+
+### Lets make it more easy,
+
+* I placed one template module inside the project, which boost up your journey.
+
+### Some pre-define steps to make your new module 
+* Create new copy of template.
+* Convert Template into Feature. (Replace the template title from all over module)
+* Flow
+    - Provider (Add required params)
+    - Pages (Widgets)
+    - Datasources remote
+    - Provider uses
 
