@@ -30,8 +30,8 @@ Presentation:
     * Pages
     * Provider (State management : BLOC , Riverpod...)
     * Widgets
-Business(Domain): 
-* Logics, implementation details, logs, exeptions, rules
+* Business(Domain): 
+ Logics, implementation details, logs, exeptions, rules
     * entities
     * repositories 
     * usecases
